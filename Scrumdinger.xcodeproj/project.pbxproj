@@ -16,6 +16,7 @@
 		874A381D26DEEB7000CC8207 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A381B26DEEB7000CC8207 /* Color+Codable.swift */; };
 		874A381F26DEED9A00CC8207 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A381E26DEED9A00CC8207 /* ScrumsView.swift */; };
 		874A382126ECED3900CC8207 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A382026ECED3900CC8207 /* DetailView.swift */; };
+		874A382326EFABF100CC8207 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A382226EFABF100CC8207 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		874A381B26DEEB7000CC8207 /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		874A381E26DEED9A00CC8207 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		874A382026ECED3900CC8207 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		874A382226EFABF100CC8207 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		874A37FC26D11CE200CC8207 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				874A382226EFABF100CC8207 /* EditView.swift */,
 				874A37FD26D11CE200CC8207 /* ScrumdingerApp.swift */,
 				874A37FF26D11CE200CC8207 /* MeetingView.swift */,
 				874A381E26DEED9A00CC8207 /* ScrumsView.swift */,
@@ -163,6 +166,7 @@
 			files = (
 				874A381C26DEEB7000CC8207 /* DailyScrum.swift in Sources */,
 				874A381F26DEED9A00CC8207 /* ScrumsView.swift in Sources */,
+				874A382326EFABF100CC8207 /* EditView.swift in Sources */,
 				874A380026D11CE200CC8207 /* MeetingView.swift in Sources */,
 				874A382126ECED3900CC8207 /* DetailView.swift in Sources */,
 				874A381126DEA16600CC8207 /* CardView.swift in Sources */,

@@ -14,11 +14,17 @@ struct MeetingHeaderView : View {
     private var totalSeconds: Int {
         secondsElapsed + secondsRemaining
     }
+    private var progress: Double {
+        guard totalSeconds > 0 else { return 1 }
+        return Double(secondsElapsed) / Double(totalSeconds)
+    }
+    private var minutesRemaining: Int {
+        secondsRemaining / 60
+    }
     
     var body: some View {
         VStack {
-            ProgressView(value: 5, total: 15)
-            
+            ProgressView(value: progress)
             HStack {
                 VStack(alignment: .leading) {
                     Text("Seconds Elapsed")
@@ -35,7 +41,7 @@ struct MeetingHeaderView : View {
         }
         .accessibilityElement(children: .ignore)
         .accessibilityLabel(Text("Time Remaining"))
-        .accessibilityLabel(Text("10 minutes"))
+        .accessibilityLabel(Text("\(minutesRemaining) minutes"))
     }
 }
 

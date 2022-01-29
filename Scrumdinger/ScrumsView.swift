@@ -40,7 +40,3 @@ struct ScrumsView_Previews: PreviewProvider {
         }
     }
 }
-
-
-// Managing State and Life Cycle - tutorial
-// https://developer.apple.com/tutorials/app-dev-training/managing-state-and-life-cycle

@@ -47,3 +47,5 @@ struct MeetingView_Previews: PreviewProvider {
         MeetingView(scrum: .constant(DailyScrum.data[0]))
     }
 }
+
+// continue here https://developer.apple.com/tutorials/app-dev-training/updating-app-data

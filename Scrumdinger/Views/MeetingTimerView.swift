@@ -17,4 +17,4 @@ struct MeetingTimerView: View {
     MeetingTimerView()
 }
 
-//https://developer.apple.com/tutorials/app-dev-training/drawing-the-timer-view
+// https://developer.apple.com/tutorials/app-dev-training/drawing-the-timer-view

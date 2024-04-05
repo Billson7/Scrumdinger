@@ -62,5 +62,3 @@ extension DailyScrum {
                    theme: .poppy)
     ]
 }
-
-// you're here https://developer.apple.com/tutorials/app-dev-training/handling-errors
